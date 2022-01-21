@@ -4,3 +4,10 @@
 #  The program should print each letter in the word the number of times it appears in the word.
 
 p "Enter a word:"
+
+user_word = gets.chomp.chars
+
+user_word.each do |single_letter|
+  p single_letter
+end
+
