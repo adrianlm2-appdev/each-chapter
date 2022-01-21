@@ -10,6 +10,6 @@ user_word = gets.chomp.chars
 user_word.each do |single_letter|
   count = user_word.count(single_letter)
   p single_letter
-  p count
+  p "appears " + count.to_s + " times"
 end
 
